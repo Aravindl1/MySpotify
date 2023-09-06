@@ -1,0 +1,24 @@
+.login {
+    display: grid;
+    background-color: black;
+    height: 100vh;
+    place-items: center;
+  }
+  
+  .login > img {
+    height: 200px;
+  }
+  
+  .login > a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 90px;
+    font-weight: bold;
+    background-color: hwb(120 3% 6% / 0.726);
+  }
+
+  .login > a:hover {
+      transition: 2.5;
+  }
